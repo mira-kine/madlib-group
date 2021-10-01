@@ -38,9 +38,13 @@ const inputVerb2 = document.getElementById('input-verb-2');
 const spanVerb2 = document.getElementById('verb-2');
 
 
-
-const hiddenPage = document.getElementById('hidden-page');
+const hiddenPage = document.getElementById('hidden-page-id');
 const submitButton = document.getElementById('submit-button');
+
+const shownPage = document.getElementById('shown-page');
+const resetButton = document.getElementById('reset')
+
+const creepyMusic = document.getElementById('creepy-music');
 
 
 submitButton.addEventListener('click', ()=> {
@@ -55,4 +59,13 @@ submitButton.addEventListener('click', ()=> {
     spanNoun4.textContent = inputNoun4.value;
     spanVerb2.textContent = inputVerb2.value;
     hiddenPage.classList.remove('hidden-page');
+    shownPage.classList.add('hidden-page');
+    creepyMusic.play();
+    document.body.style.backgroundimage = "url('../assets/creepy-kitchen.jpg')";
 });
+
+resetButton.addEventListener('click', () => {
+    hiddenPage.classList.add('hidden-page');
+    shownPage.classList.remove('hidden-page');
+    creepyMusic.pause();
+})
