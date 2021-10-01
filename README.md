@@ -9,3 +9,37 @@
 8) Consider your data model. What objects will you be using? What are the key/value pairs? What arrays do you need? What needs to live in local storage?
 9) Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.
 
+RECIPE BUILDING: 
+
+##HTML: 
+
+header
+div
+    input id
+    input id
+    input id
+    input id
+    nice random picture
+div
+
+
+button submit
+
+div
+    text that shows after we hit the button
+    span id
+    span id
+    span id
+    span id
+    picture of a burnt dish
+div
+
+footer 
+
+##CSS: 
+make the second (paragraph) page hidden
+
+##JS: 
+"on click" make the second page appear by displaying it as a block
+
+
