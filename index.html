@@ -9,25 +9,71 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
-    <title>Document</title>
+    <title>Recipe for Disaster</title>
 </head>
 
 <body>
-    <p>
-        First, warm the <span id="noun-1">olive oil</span> in a skillet over medium heat.
-        <br>
-        Cook the <span id="noun-2">garlic</span> in the oil until it’s lightly <span id="adjective-1">golden</span> and softened. 
-        <br>
-        It doesn’t take long so keep an <span id="body-part-1">eye</span> on it and lower the <span id="noun-3">heat</span> if it’s browning too fast.
-        <br>
-        <span id="verb-1">Reserve</span> a tablespoon of the <span id="adjective-2">starchy</span> pasta water before you drain the pasta.
-        <br>
-        Add the cooked spaghetti, along with <span id="body-part-2">the tablespoon of starchy pasta water</span>, 
-        <br>
-        to the skillet and toss it with the garlic oil.
-        <br>
-        Add the chopped parsley and Parmesan cheese, toss it all again and serve!
-    </p>
+
+    <header>
+        <h1>Recipe for Disaster</h1>
+    </header>
+
+    <div id="shown-page">
+        <label class="input-box"> Noun 1:
+           <input type="text" id="input-noun-1">
+        </label>
+        <label class="input-box"> Noun 2:
+           <input type="text" id="input-noun-2">
+        </label>
+        <label class="input-box"> Adjective 1:
+           <input type="text" id="input-adjective-1">
+        </label>
+        <label class="input-box"> Body part 1:
+           <input type="text" id="input-body-part-1">
+        </label>
+        <label class="input-box"> Noun 3:
+           <input type="text" id="input-noun-3">
+        </label>
+        <label class="input-box"> Verb 1:
+           <input type="text" id="input-verb-1">
+        </label>
+        <label class="input-box"> Adjective 2:
+           <input type="text" id="input-adjective-2">
+        </label>
+        <label class="input-box"> Body part 2:
+           <input type="text" id="input-body-part-2">
+        </label>
+        <label class="input-box"> Noun 4:
+           <input type="text" id="input-noun-4">
+        </label>
+        <label class="input-box"> Verb 2:
+           <input type="text" id="input-verb-2">
+        </label>
+
+        <button id="submit-button">Submit</button>
+
+
+    </div>
+
+    <div id="hidden-page">
+        <p>
+            First, warm the <span id="noun-1">olive oil</span> in a skillet over medium heat.
+            <br>
+            Cook the <span id="noun-2">garlic</span> in the oil until it’s lightly <span id="adjective-1">golden</span> and softened. 
+            <br>
+            It doesn’t take long so keep an <span id="body-part-1">eye</span> on it and lower the <span id="noun-3">heat</span> if it’s browning too fast.
+            <br>
+            <span id="verb-1">Reserve</span> a tablespoon of the <span id="adjective-2">starchy</span> pasta water before you drain the pasta.
+            <br>
+            Add the cooked spaghetti, along with <span id="body-part-2">the tablespoon of starchy pasta water</span>, 
+            <br>
+            to the <span id="noun-4">skillt</span> and toss it with the garlic oil.
+            <br>
+            Add the chopped parsley and Parmesan cheese, <span id="verb-2">toss</span> it all again and serve!
+        </p>
+    </div>
+
+    
     
 
     <script type="module" src="./app.js"></script>
