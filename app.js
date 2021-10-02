@@ -61,11 +61,12 @@ submitButton.addEventListener('click', ()=> {
     hiddenPage.classList.remove('hidden-page');
     shownPage.classList.add('hidden-page');
     creepyMusic.play();
-    document.body.style.backgroundimage = "url('../assets/creepy-kitchen.jpg')";
+    document.body.style.backgroundImage = "url('../assets/creepy-kitchen.jpg')";
 });
 
 resetButton.addEventListener('click', () => {
     hiddenPage.classList.add('hidden-page');
     shownPage.classList.remove('hidden-page');
     creepyMusic.pause();
-})
+    document.body.style.backgroundImage = 'none';
+});

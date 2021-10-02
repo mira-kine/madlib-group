@@ -3,13 +3,14 @@ h1 {
     justify-content: center;
     align-content: center;
     padding: 20px;
+    font-size: 100px;
 }
 
 body {
-    /* background-color: black; */
+    background-color: black;
     color: white;
-    /* background-image: url("../assets/creepy-kitchen.jpg"); */
     background-size: cover;
+    font-family: 'Creepster', cursive;
 }
 
 .hidden-page{
@@ -19,13 +20,17 @@ body {
 #shown-page {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-around;
     align-content: center;
-    padding: 10rem 20rem;
-    position: relative;
+    position: absolute;
     z-index: 1;
+    width: 30%;
 }
 
+.shown-page-parent {
+    display: flex;
+    justify-content: center;
+}
 .input-box {
     display: flex;
     align-items: left;
@@ -33,9 +38,10 @@ body {
 
 #hidden-page-id {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     position: absolute;
+    padding: 10rem 20rem;
     z-index: 2;
-    background-image: url("../assets/creepy-kitchen.jpg");
 }
